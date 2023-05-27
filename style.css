@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgba(4, 4, 49, 1);
+    color: white;
+}
+.body{
+    background-image: linear-gradient(to bottom, rgba(4, 4, 49, 0.4), rgba(4, 4, 49, 1)),url(./rDJegQJaCyGaYysj2g5XWY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(0, 0%, 100%);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+    color: red;
+    align-items: center;
+}
+.nav button{
+    background-color: rgb(199, 12, 12);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.nav h1{
+    font-size: 50px;
+}
+.topBody{
+    width: 65%;
+    margin: 100px 10%;
+}
+.topBody h1{
+    font-size: 70px;
+}
+h1{
+    font-size: 50px;
+}
+.topBody h4{
+    font-size: 25px;
+    padding: 5vh 0 ;
+}
+.topBody p{
+    font-size: 25px;
+    padding: 0 0 2vh 0;
+}
+#topBodyInput{
+    padding: 3vh 10vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 90%;
+    border-radius: 5px; 
+    border-color:  white;
+}
+.topBodyInput button{
+    padding: 1vh 1.5vw;
+    background-color: rgba(255, 0, 0, 0.8);
+    font-size: 25px;
+    font-weight: 700px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.topBodyInput{
+    display: flex;
+    gap: 2vh;
+}
+.ad{
+    background: linear-gradient(to bottom right, rgb(9, 9, 70), rgb(9, 9, 70),  rgb(145, 40, 40));  
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+}
+.adTwo{
+    background: linear-gradient(to bottom right, rgb(9, 9, 70), rgb(9, 9, 70),  rgb(145, 40, 40));
+}
+.adThree{
+    background: linear-gradient(to bottom right, rgb(9, 9, 70), rgb(9, 9, 70),  rgb(145, 40, 40));  
+}
+.adFour{
+    background: linear-gradient(to bottom right, rgb(9, 9, 70), rgb(9, 9, 70),  rgb(145, 40, 40));  
+}
+.adOneandTwo{
+    display: flex;
+    width: 80%; 
+    margin:60px auto;
+    gap: 20px;
+    
+}
+.ad img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.adThreeandFour{
+    display: flex;
+    width: 80%; 
+    margin: auto;
+}
+
+
+/* .ad h1,.ad p{
+    padding: 0 20px;
+} */
+
+.ad h1{
+    font-size: 30px;
+}
+.FAQ{
+    padding: 0 0 0 15vw;
+    display: flex;
+    flex-direction: column;
+}
+.FAQ h1{
+    padding: 2vh 0 2vh 0 ;
+}
+.box1{
+    background-color: rgb(43, 43, 83);
+    padding: 1.5vh 2vw 0 2vw ; 
+    margin: 2vh 10vw 2vh 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FAQ .img{
+    font-size: 50px;
+}
+.rtw{
+   font-size: 20px;
+   padding: 3vh 0 ; 
+}
+.questions{
+    padding: 15vh 0 7vh 0;
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+}
+.linkOne{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.linkOne a {
+    color: rgba(255, 255, 255, .5);
+}
+.links{
+    display: flex;
+    gap: 15vh;
+}
+.netflix{
+    padding: 8vh 0 10vh 14.7vw;
+    color: rgba(255, 255, 255, .5);
+}
